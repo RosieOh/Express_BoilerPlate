@@ -1,0 +1,35 @@
+# Node.js 관련 파일
+node_modules/
+
+# 환경 변수 파일 (.env)
+.env
+
+# 로그 파일
+*.log
+
+# 배포된 파일 (빌드 아티팩트)
+dist/
+build/
+
+# MacOS 관련 파일
+.DS_Store
+
+# VSCode 관련 파일
+.vscode/
+
+# npm 패키지 캐시
+.npm/
+
+# 테스트 관련 디렉토리
+coverage/
+
+# 다른 IDE 및 편집기 파일들
+.idea/
+*.swp
+
+# 서버 관련 파일 (예: PM2 프로세스)
+pids/
+*.pid
+
+# dotenv 설정을 제외하려면 .env 제외하고 주석 처리
+# .env
